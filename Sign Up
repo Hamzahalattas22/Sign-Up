@@ -1,0 +1,70 @@
+<doctype html>
+    <head>
+        <title>Forms hw</title>
+        <meta charset="utf-8"/>
+        <style></style>
+        <script></script>
+        <link rel="" href="">
+    </head>
+
+    <body>
+        <div style="background-color:rgb(97, 89, 81); padding: 4%; margin: 150; width: 300px; height: 60%; border: 1px solid;">
+
+            <h1 style="text-align:center; color:rgb(233, 99, 21) ;">Sign up </h1>
+
+            <img src="welcome-poster-spectrum-brush-strokes-white-background-colorful-gradient-brush-design-vector-paper-illustration-r-welcome-125370796.jpg" alt="welcome logo" style="width: 300px;"/>
+            <br> 
+
+                <p style="color:rgb(233, 99, 21);"><b>We are Happy that you will be one of our members please fill the form below:</b></p>
+                
+                <form action="" id="registerform"  name="registerform"  method="post"  enctype="multipart/form-data">
+                
+                    <label for="firstname" id="firstname" style="margin-left: 1px; color: azure;">Firstname :</label>
+                    <input type="text" id="firstname" name="firstname" required autocomplete="off" style="margin-left: 0px;"> 
+                    <br><br>
+
+                    <label for="lastname" id="lastname" style="margin-left: 1px; color: azure;">Lastname :</label>
+                    <input type="text" id="last name" name="lastname" required autocomplete="off" style="margin-left: 0px;"> 
+                    <br><br>
+
+                    <label for="username" id="username" style="margin-left: 1px; color: azure;">Username :</label>
+                    <input type="text" id="username" name="username" required autocomplete="off" style="margin-left: 0px;"> 
+                    <br><br>
+
+                    <label for="Paswword" id="password"  style="margin-left: 1px; color: azure;">Password :</label>
+                    <input type="password" id="password" name="password" required autocomplete="off" style="margin-left: 0px;">
+                    <br><br>
+
+        
+                    <label for="email" id="email" name="email" style="margin-left: 1px; color: azure;"> E-mail :</label>
+                    <input type="email" id="email" name="email" autocomplete="off" style="margin-left: 18;">
+                    <br><br>
+
+                    <label for="age" id="age" name="age" style="margin-left: 1px; color: azure;"> Age :</label>
+                    <input type="number" id="age" name="age" autocomplete="off" style="margin-left: 28px;">
+                    <br><br>
+
+                    <label for="gender" id="gender" name="gender" style="margin-left: 1px; color: azure;"> Gender :</label>
+                    <input type="checkbox" id="male" name="male" autocomplete="off" style="margin-left: 28px; ">Male
+                    <input type="checkbox" id="female" name="female" autocomplete="off" style="margin-left: 28px;">Female
+                    <br><br>
+                    
+                    
+                    <label for="country" id="country" name="conutry"  style="margin-left: 1px; color: azure;">Country : </label>
+                    <select name="country" id="conutry" style="margin-left: 30px;">
+                        <option value="eg">Egypt</option>
+                        <option value="sa" selected>Saudi Arabia</option>
+                        <option value="om">Oman</option>
+                    </select>
+                    <br><br>
+
+                
+                    <input type="checkbox" id="male" name="male" autocomplete="off" style="margin-left: 80px;" required> Terms and Privcy
+                    <br><br>
+                
+                    <button for="submit" style="margin-left: 90px;">Sign up</button>
+                    <button for="Reset" style="margin-left: px;">Reset</button>
+                </form>
+        </div>
+    </body>
+</html>
